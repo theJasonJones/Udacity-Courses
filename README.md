@@ -9,8 +9,8 @@ I will attempt to go through a few of the courses including:
 - Intro to Computer Science
 - Web Development
 - Algorithms
-- Software Testing
 - Software Debugging
+- Software Testing
 
 ##Why are doing this? 
 Well, I always wanted to learn Python and I've heard a lot of great things about Udacity's free courses. At the very least, I'll learn something new. 
