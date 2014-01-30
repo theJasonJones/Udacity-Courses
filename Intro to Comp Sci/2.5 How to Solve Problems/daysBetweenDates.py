@@ -17,27 +17,16 @@ def nextDay(year, month, day):
             return year, month + 1, 1
         
         #I would never actually use parameters like this
-def daysBetweenDates(year1, month1, day1, year2, month2, day2):
+#def daysBetweenDates(year1, month1, day1, year2, month2, day2):
     """Returns the number of days between year1/month1/day1 and year2/month2/day2. Assumes inputs are valid dates 
     in Gregorian calendar, and the first date is not after the second."""
     
-    year_difference = year2 - year1
-    month_difference = month2 - month1
-    day_difference = day2 - day1
-    
-    #Number of year * number of days in a year
-    yearsInDays = year_difference * 360
-    monthsInDays = month_difference * 30
-    
-    #Checking for cases that are a year or less
-    if (year_difference < 2):
-        totalDays = abs(yearsInDays + (monthsInDays - day_difference))
-        
-    #Checking for cases greater than a year
-    if (year_difference > 1):
-        totalDays = yearsInDays + (monthsInDays - day_difference)
-    
-    return totalDays
+def daysBetweenDates(year1, month1, day1, year2, month2, day2):
+    n = 0
+    while (year1, month1, day1) < (year2, month2, day2):
+        year1, month1, day1 = nextDay(year1, month1, day1)
+        n = n + 1
+    return n
 
 #This procedure is the only reason I want to include this file, So I can refer to it later
 
