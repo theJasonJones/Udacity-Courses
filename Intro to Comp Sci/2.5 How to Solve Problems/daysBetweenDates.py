@@ -22,13 +22,16 @@ def nextDay(year, month, day):
     in Gregorian calendar, and the first date is not after the second."""
     
 def daysBetweenDates(year1, month1, day1, year2, month2, day2):
+    if ((year1, month1, day1) > (year2, month2, day2)):
+        return "AssertionError"
+
     n = 0
     while (year1, month1, day1) < (year2, month2, day2):
         year1, month1, day1 = nextDay(year1, month1, day1)
         n = n + 1
     return n
 
-#This procedure is the only reason I want to include this file, So I can refer to it later
+#This procedure is the only reason I want to include this file, so I can refer to it later
 
 def test():
     test_cases = [((2012,9,30,2012,10,30),30), 
