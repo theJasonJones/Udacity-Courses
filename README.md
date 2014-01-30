@@ -12,7 +12,7 @@ I will attempt to go through a few of the courses including:
 - Software Debugging
 - Software Testing
 
-##Why are doing this? 
+##Why are you doing this? 
 Well, I always wanted to learn Python and I've heard a lot of great things about Udacity's free courses. At the very least, I'll learn something new. 
 
 ##Why are you posting it here?
