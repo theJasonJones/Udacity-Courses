@@ -1,4 +1,7 @@
 def make_hashtable(nbuckets):
-  return [[]] * nbuckets
+  table = []
+  for unused_var in range(0, nbuckets):
+    table.append([])
+  return table
 
-make_hashtable(5)
+print make_hashtable(5)
