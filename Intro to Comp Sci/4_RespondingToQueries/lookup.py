@@ -14,6 +14,7 @@ def lookup(index,keyword):
         if (index[i][0] == keyword):
             return index[i][1]
         i += 1
+    return index
 
 print lookup(index,'udacity')
 print lookup(index, 'computing')
