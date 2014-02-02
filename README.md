@@ -7,10 +7,17 @@ This repo will serve as a way to both save some of the exercises/challenges/home
 
 I will attempt to go through a few of the courses including: 
 - Intro to Computer Science
+  - Building a Search Engine
 - Web Development
+  - Building a Blog
 - Algorithms
+  - Crunching Social Networks
 - Software Debugging
+  - Automating the Boring Tasks
 - Software Testing
+  - How to Make Software Fail
+- Programming Languages
+  - Bulding a Web Browser
 
 ##Why are you doing this? 
 Well, I always wanted to learn Python and I've heard a lot of great things about Udacity's free courses. At the very least, I'll learn something new. 
