@@ -2,7 +2,7 @@ class Restaurant(object):
     """
     Represents a place that serves food.
     """
-    def __init__(self, name):
+    def __init__(self, name);
         self.name = name
 
     def display(self):
