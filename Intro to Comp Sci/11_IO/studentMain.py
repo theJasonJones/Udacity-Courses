@@ -14,6 +14,8 @@ ranks = compute_ranks(graph)
 class LuckySearch(object):        
     def GET(self, query):
         result = lucky_search(corpus, ranks, query)
+        if not result:
+          return "Try a search engine like Google"
         return result
 
 # running some tests
